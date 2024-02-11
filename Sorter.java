@@ -9,6 +9,7 @@ class lab03 {
 
 	private static void insertionSort(int[] array) {
 		for (int i = 1; i < array.length; ++i) {
+			// initial key
 			int key = array[i];
 			int j = i - 1;
 
