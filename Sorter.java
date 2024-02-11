@@ -4,7 +4,7 @@ class lab03 {
 	}
 
 	public static void sort(int[] array) {
-		// selectionSort(array);
+		selectionSort(array);
 	}
 
 	private static void insertionSort(int[] array) {
@@ -22,6 +22,7 @@ class lab03 {
 		}
 
 	}
+
 	private static void selectionSort(int[] array) {
 		int len = array.length;
 		for (int i = 0; i < len - 1; i++) {
